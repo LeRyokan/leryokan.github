@@ -152,8 +152,8 @@
 
                <div class="twelve columns">
 
-                  <h3>University of Life</h3>
-                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
+                  <h3>Ecole Supérieur de Génie Informatique - ESGI</h3>
+                  <p class="info">Master in Video Game Programmation <span>&bull;</span> <em class="date">October 2014 - July 2016</em></p>
 
                   <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -170,8 +170,18 @@
 
                <div class="twelve columns">
 
-                  <h3>School of Cool Designers</h3>
-                  <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
+                  <h3>Tétras</h3>
+                  <p class="info">Licence Professionnel Chargé de projet Informatique <span>&bull;</span> <em class="date">September 2013 - July 2014</em></p>
+
+                  <p>
+                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                  </p>
+
+		<h3>Lycée Georges Brassens</h3>
+                  <p class="info">BTS Informatique et Réseaux pour l'Industrie et les Services - IRIS <span>&bull;</span> <em class="date">September 2011 - July 2013</em></p>
 
                   <p>
                   This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
@@ -301,13 +311,13 @@ function changebg(i)
 	{
 		case 1 :
 		x.style.background="url(images/ez.jpg) no-repeat center center";
-		x.style.background= "fixed";
+		//x.style.background= "fixed";
 
 
-	 x.style.background.position= "relative";
-   	//x.style.background.min-height= "200px";
-   	x.style.background.width= "100%";
-   	x.style.background.overflow= "hidden";
+	 	x.style.background.position= "relative";
+   		//min-height= "200px";
+   		x.style.background.width= "100%";
+   		x.style.background.overflow= "hidden";
 		break;
 		case 2:
 		x.style.background="url(images/ez2.jpg)";
@@ -339,7 +349,7 @@ function changebg(i)
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-02" title="">
+                     <!--a href="#modal-02" title=""-->
                         <img alt="" src="images/portfolio/console.jpg">
                         <div class="overlay" onclick="changebg(2)">
                            <div class="portfolio-item-meta">
@@ -356,7 +366,7 @@ function changebg(i)
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-03" title="">
+                     <!--a href="#modal-03" title=""-->
                         <img alt="" src="images/portfolio/judah.jpg">
                         <div class="overlay" onclick="changebg(3)">
                            <div class="portfolio-item-meta">
@@ -373,7 +383,7 @@ function changebg(i)
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-04" title="">
+                     <!--a href="#modal-04" title=""-->
                         <img alt="" src="images/portfolio/into-the-light.jpg">
                         <div class="overlay" onclick="changebg(4)">
                            <div class="portfolio-item-meta">
