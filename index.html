@@ -292,9 +292,39 @@
           	   <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/coffee.jpg">
-                        <div class="overlay">
+                     <!--a href="#modal-01" title=""--><script>
+function changebg(i)
+{
+	console.log("On clique");
+	var x = document.getElementById("testimonials");
+	switch (i)
+	{
+		case 1 :
+		x.style.background="url(images/ez.jpg) no-repeat center center";
+		x.style.background= "fixed";
+
+
+	 x.style.background.position= "relative";
+   		min-height= "200px";
+   	x.style.background.width= "100%";
+   	x.style.background.overflow= "hidden";
+		break;
+		case 2:
+		x.style.background="url(images/ez2.jpg)";
+		break;
+		case 3:
+		x.style.background="url(images/ez3.jpg)";
+		break;
+		case 4:
+		x.style.background="url(images/ez4.jpg)";
+		break;
+		default:
+		x.style.background="url(images/ez.jpg)";
+	}
+}
+</script>
+                        <img alt="" src="images/portfolio/coffee.jpg" >
+                        <div class="overlay" onclick="changebg(1)">
                            <div class="portfolio-item-meta">
           					      <h5>Coffee</h5>
                               <p>Illustrration</p>
@@ -311,7 +341,7 @@
 
                      <a href="#modal-02" title="">
                         <img alt="" src="images/portfolio/console.jpg">
-                        <div class="overlay">
+                        <div class="overlay" onclick="changebg(2)">
                            <div class="portfolio-item-meta">
           					      <h5>Console</h5>
                               <p>Web Development</p>
@@ -328,7 +358,7 @@
 
                      <a href="#modal-03" title="">
                         <img alt="" src="images/portfolio/judah.jpg">
-                        <div class="overlay">
+                        <div class="overlay" onclick="changebg(3)">
                            <div class="portfolio-item-meta">
           					      <h5>Judah</h5>
                               <p>Webdesign</p>
@@ -345,7 +375,7 @@
 
                      <a href="#modal-04" title="">
                         <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
+                        <div class="overlay" onclick="changebg(4)">
                            <div class="portfolio-item-meta">
           					      <h5>Into The Light</h5>
                               <p>Photography</p>
@@ -357,7 +387,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-05" title="">
@@ -374,7 +404,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-06" title="">
@@ -391,7 +421,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-07" title="">
@@ -408,7 +438,7 @@
                   </div>
           		</div> <!-- item end -->
 
-               <div class="columns portfolio-item">
+               <!--div class="columns portfolio-item">
                   <div class="item-wrap">
 
                      <a href="#modal-08" title="">
@@ -438,13 +468,13 @@
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
+			      <h4>Project 1</h4>
 			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
+               <a href="Project1.html">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -455,13 +485,13 @@
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Console</h4>
+			      <h4>Project 2</h4>
 			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
 		      </div>
 
             <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
+               <a href="Project2.html">Details</a>
 		         <a class="popup-modal-dismiss">Close</a>
             </div>
 
@@ -472,7 +502,7 @@
 		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
 
 		      <div class="description-box">
-			      <h4>Judah</h4>
+			      <h4>Project 3</h4>
 			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                <span class="categories"><i class="fa fa-tag"></i>Branding</span>
 		      </div>
@@ -625,7 +655,7 @@
 
                <div class="flexslider">
 
-                  <ul class="slides">
+                  
 
                      <li>
                         <blockquote>
@@ -636,18 +666,7 @@
                            <cite>Steve Jobs</cite>
                         </blockquote>
                      </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
+                  
 
                </div> <!-- div.flexslider ends -->
 
