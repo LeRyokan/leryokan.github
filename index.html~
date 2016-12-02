@@ -119,7 +119,7 @@
 
                <div class="columns download">
                   <p>
-                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="CV/resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
@@ -342,8 +342,8 @@ function changebg(i)
                         <img alt="" src="images/portfolio/coffee.jpg" >
                         <div class="overlay" onclick="changebg(1)">
                            <div class="portfolio-item-meta">
-          					      <h5>Coffee</h5>
-                              <p>Illustrration</p>
+          					      <h5>VvVvV</h5>
+                              <p>Video Game Prototype</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -780,7 +780,7 @@ function changebg(i)
 
 				   </div>
 
-               <div class="widget widget_tweets">
+               <!--div class="widget widget_tweets">
 
                   <h4 class="widget-title">Latest Tweets</h4>
 
@@ -803,7 +803,7 @@ function changebg(i)
                      </li>
                   </ul>
 
-		         </div>
+		         </div-->
 
             </aside>
 
