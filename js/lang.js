@@ -1,5 +1,5 @@
 var langs = ["en", "fr"];
-var langCode = '';
+var langCode = 'fr';
 var langJS = null;
 console.log("On debug");
 
@@ -14,7 +14,7 @@ var translate = function (jsdata)
 }
 
 
-langCode = navigator.language.substr (0, 2);
+//langCode = navigator.language.substr (0, 2);
 
 langs.forEach(function(element)
 {	

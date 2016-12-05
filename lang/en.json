@@ -1,16 +1,16 @@
 {
-"title": "Hello I'm Lucas Tixier",
-"txt_intro" : " ",
+"title": "I'm Lucas Tixier",
+"txt_intro" : "I'm a Paris based <span> Developer </span> which work for Orange. ",
 "title_about":"About me",
-"txt_about": " ",
+"txt_about": "",
 "Contact_title": "",
 "button_downloadCV" : "Download Resume",
 "txt_contact" : " ",
-"title_education":"Education",
+"title_education":"<span>Education</span>",
 
-"title_job":"Work",
+"title_job":"<span>Work</span>",
 
-"title_skills" :"SKILLS",
+"title_skills" :"<span>Skills</span>",
 
 "title_portfolio ": "Portfolio",
  
