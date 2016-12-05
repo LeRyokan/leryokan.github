@@ -1,0 +1,22 @@
+{
+"title": "Hello I'm Lucas Tixier",
+"txt_intro" : " ",
+"title_about":"About me",
+"txt_about": " ",
+"Contact_title": "",
+"button_downloadCV" : "Download Resume",
+"txt_contact" : " ",
+"title_education":"Education",
+
+"title_job":"Work",
+
+"title_skills" :"SKILLS",
+
+"title_portfolio ": "Portfolio",
+ 
+"form_name" : "Name",
+"form_email": "Email",
+"form_subject":"Subject",
+"form_message":"Message",
+"button_submit" :"SUBMIT"
+}
