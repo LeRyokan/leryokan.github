@@ -335,8 +335,8 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 80%;
+.haxe {
+  	width: 55%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
@@ -356,12 +356,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 .cplusplus {
-	width: 65%;
+	width: 75%;
 	-moz-animation: cplusplus 2s ease;
   	-webkit-animation: cplusplus 2s ease;
 }
 .csharp {
-	width: 75%;
+	width: 65%;
 	-moz-animation: csharp 2s ease;
   	-webkit-animation: csharp 2s ease;
 }

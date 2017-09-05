@@ -1,4 +1,9 @@
 {
+"home": "Accueil",
+"about": "A propos de moi",
+"cv": "Curriculum vitae",
+"works": "Portfolio",
+"contact": "Contact",
 "title": "Je suis Lucas Tixier",
 "txt_intro" : "Je suis un développeur à Paris, je travaille actuellement pour Orange. ",
 "title_about":"A propos de moi",
@@ -50,7 +55,11 @@
 "form_email": "Email <span>*</span>",
 "form_subject":"Sujet",
 "form_message":"Message <span>*</span>",
-"button_submit" : "Envoyer"
+"button_submit" : "Envoyer",
+
+"add_phone": "Adresse et téléphone"
+
+
 
 
 }
