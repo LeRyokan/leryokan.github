@@ -1,22 +1,64 @@
 {
-"title": "I'm Lucas Tixier",
-"txt_intro" : "I'm a Paris based <span> Developer </span> which work for Orange. ",
-"title_about":"About me",
-"txt_about": "",
-"Contact_title": "",
-"button_downloadCV" : "Download Resume",
-"txt_contact" : " ",
-"title_education":"<span>Education</span>",
+"home": "Accueil",
+"about": "A propos de moi",
+"cv": "Curriculum vitae",
+"works": "Portfolio",
+"contact": "Contact",
+"title": "Je suis Lucas Tixier",
+"txt_intro" : "Je suis un développeur à Paris, je travaille actuellement pour Orange. ",
+"title_about":"A propos de moi",
+"txt_about": "Merci de votre visite sur mon site! <br> Je suis un passionné d'art virtuel. Le jeu vidéo, les films d'animations font parti de mes passe-temps favoris. J'ai créer ce site pour me permettre de partager mes quelques créations vidéoludique ainsi que pour présenter mon parcours professionnel. Je souhaite pouvoir un jour intégré un studio de jeu vidéo pour avoir la chance de travailler sur des projets de plus grande ampleurs et avec plus de corps de métier différent. Maintenant que je me suis brievement introduit je vous laisse visiter mon site et vous remercie encore de votre venue. " 
+"button_downloadCV" : "Télécharger le CV",
+"txt_contact" : "J'adore partager avec tout le monde. Alors si vous avez une question, une idée ou ne serais-ce juste l'envie de m'écrire pour discuter n'hésitez pas je ferais de mon mieux pour vous répondre le plus rapidement possible.",
 
-"title_job":"<span>Work</span>",
+"title_education":"<span>études</span>",
+"title_school1":"Lycée Georges Brassens <span>&#126;</span> Rive de giers 42800",
+"title_study1":"BTS, Informatique et Réseau pour l'Industrie et les Services (IRIS)",
+"txt_school1":"J'ai acquis les bases de la programmation avec cette formation. Voici quelques exemples de technologies abordées : C/C++, PHP/HTML/CSS, SQL, PL/SQL",
+"title_school2":"Tétras <span>&#126;</span> Université d'Annecy-le-vieux",
+"title_study2":"Licence Professionnelle, Chargé de projet Informatique",
+"txt_school2":"Avec cette année de licence, j'ai souhaité élargir mon domaine de compétence au management de projet tout en poursuivant l'apprentissage de la programmation.",
+"title_school3":"Ecole Supérieur de Génie Informatique <span>&#126;</span> Paris 75012",
+"title_study3":"Master en programmation Jeu vidéo et 3D",
+"txt_school3":"Pour finir mes études j'ai donc choisi de me spécialiser dans la programation 3D et de jeux vidéo, qui est le domaine de la programmation qui m'attire le plus.",
 
-"title_skills" :"<span>Skills</span>",
 
-"title_portfolio ": "Portfolio",
- 
-"form_name" : "Name",
-"form_email": "Email",
-"form_subject":"Subject",
-"form_message":"Message",
-"button_submit" :"SUBMIT"
+"title_job":"<span>Expérience</span>",
+"title_enterprise1":"Electricité de France (EDF) <span>&#126;</span> Alternance",
+"title_job1":"Développeur Web <span>&bull;</span> Octobre 2013 - Septembre 2014",
+"date_job1":"Octobre 2013 - Septembre 2014",
+"txt_job1":"Pour ma première alternance j'ai été embauché par EDF France pour réaliser un logiciel pour une équipe composée d'une quinzaine de personnes. Pour cette mission nous n'avions aucun budget particulier, le choix de technologies gratuites était la principale contrainte. Nous avons donc opté pour la réalisation d'une plateforme web réalisée en PHP/HTML/CSS/Javascript. A la fin de cette année d'alternance, le projet est passé en production avec la plupart des features développées et fonctionnelles. L'outil à été démocratisé auprès des conseillers clients de EDF par la suite. ",
+
+
+
+"title_enterprise2":"Orange <span>&#126;</span> Alternance",
+"title_job2":"Developpeur noSQL <span> &bull; </span> Octobre 2014 - Aout 2016",
+"txt_job2":"Pour ma seconde alternance j'ai été embauché chez Orange pour réaliser des benchmarks sur des technologies noSQL. Puis à mettre en oeuvre différentes solutions pour enfin en selectionner une à mettre en place dans notre équipe.", 
+"date_job2":"Octobre 2014 - Aout 2016",
+
+
+
+
+
+"title_enterprise3":"Orange <span>&#126;</span> CDI",
+"title_job3":"Dataminer - Developpeur (Python / Bash) - Admin Linux <span>&bull;</span> Octobre 2016 - Aujourd'hui",
+"txt_job3":"Suite à mon alternance, il m'a été proposé de rester dans l'équipe mais pour une autre mission. J'ai donc obtenu mon premier CDI chez Orange. La mission consiste en la mise en place d'équipement dans le réseau d'orange, mais également dans l'exploitation de ces équipements. Nous sommes 2 à nous occuper d'un large parc de machines disséminées partout en France. Je réalise également des études de datamining pour mes collègues de travail.",
+"date_job3":"Octobre 2016 - Aujourd'hui",
+
+"title_skills" :"<span>Compétences</span>",
+"txt_skills" :"Voici un bref aperçu des mes compétences par domaine.",
+
+"title_portfolio": "Portfolio",
+"txt_portfolio":"Voici des exemples de mes anciens travaux en relation avec les jeux vidéo et la 3D",
+"form_name" : "Nom Prénom <span>*</span>",
+"form_email": "Email <span>*</span>",
+"form_subject":"Sujet",
+"form_message":"Message <span>*</span>",
+"button_submit" : "Envoyer",
+
+"add_phone": "Adresse et téléphone"
+
+
+
+
 }
