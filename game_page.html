@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Lucas Tixier - Personnal Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="Lucas Tixier">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+			<li><a class="overlay" href="game_page.html" tkey="works">Games</a></li>
+			<li><a class="overlay" href="CV_page.html" tkey="cv">Resume</a></li>
+			<li><a class="overlay" href="about_page.html" tkey="about">About & Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      
+
+      
+
+   </header> <!-- Header End -->
+   
+   
+   
+    <section id="portfolio">
+			
+			<script>
+function changebg(i)
+{
+	console.log("On clique");
+	var x = document.getElementById("testimonials");
+	var o = document.getElementById("projects");
+	//"Solo game where you have to help mister belly to find his way to home without running out of battery ! you can test the game here : href(https://youtube.com)";
+	switch (i)
+	{
+		case 1 :
+		window.location.href = "game_page.html";
+		
+		x.style.background="url(images/ingameBM.jpg) no-repeat center center";
+		//x.style.background= "fixed";
+
+
+	 	x.style.background.position= "relative";
+   		//min-height= "200px";
+   		x.style.background.width= "100%";
+   		x.style.background.overflow= "hidden";
+		
+		o.innerHTML = "Big Mommy Is Watching Over You - Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h";
+		break;
+		
+		case 2:
+		x.style.background="url(images/portfolio/gamescene_wvw.jpg)";
+		o.innerHTML = "WVW - Global GameJam - Jeu de duel de sous-marin en ligne! Trouver et eliminer votre adversaire avant qu'il n'en fasse de même pour vous! Jeu réalisé en 48h";
+		break;
+		
+		case 3:
+		x.style.background="url(images/portfolio/previewHirule.png)";
+		o.innerHTML = "Shareable AI Party - Party game multijoueur ! L'idée principale derrière ce titre était de pouvoir jouer avec des IA ayant un comportement similaire au joueur ayant déjà joué au jeu.";
+	//		Implementation of a multiplayer party game, with robust IA system <br> The purpose was to reproduce human comportment with IA.";
+		break;
+		
+		case 4:
+		x.style.background="url(images/ez4.jpg)";
+		o.innerHTML = "VvVvV - Jeu de voleur multijoueur en ligne ! Ceci est un prototype réalisé en 1ere année de master jeu vidéo, le but est simple plannifier à chaque tour une choix d'action pour tenter de rammasser plus de butins que les voleurs ennemis se trouvant dans le donjon !";
+		// Multiplayer thief game ! " First Concept <br> First prototype for our Unity course in my 1st year of master Video Game";
+		
+	
+		break;
+		default:
+		x.style.background="url(images/ez.jpg)";
+		o.innerHTML = "Big Mommy Is Watching Over You - LD JAM 39 - Solo game where you have to help mister belly to find his way to home without running out of battery ! you can test the game here : ";
+	}
+}
+</script>
+   
+   
+   
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1 tkey="title_portfolio">Check Out Some of My Works.</h1>
+
+			 HELLO </a>
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="game_page.html" title="">
+                        <img alt="" src="images/portfolio/BMIWY8.jpg" >
+                        <div class="overlay" onclick="changebg(1)">
+                           <div class="portfolio-item-meta">
+          					      <h5>Big Mommy Is Watching Over You</h5>
+                              <p>Video Game for Game Jam</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <!--a href="#modal-02" title=""-->
+					 <a class="smoothscroll" href="#testimonials">
+                        <img alt="" src="images/portfolio/wvw8.png">
+                        <div class="overlay" onclick="changebg(2)">
+						
+						
+                           <div class="portfolio-item-meta">
+          					      <h5>Warship Vs Warship (WVW)</h5>
+                              <p>Video Game for Game Jam</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <!--a href="#modal-03" title=""-->
+					 <a class="smoothscroll" href="#testimonials">
+                        <img alt="" src="images/portfolio/previewHirule8.png">
+                        <div class="overlay" onclick="changebg(3)">
+                           <div class="portfolio-item-meta">
+          					      <h5>Shareable IA Party</h5>
+                              <p>Video Game</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <!--a href="#modal-04" title=""-->
+                        <img alt="" src="images/portfolio/RACOON VVVVV8.png">
+                        <div class="overlay" onclick="changebg(4)">
+                           <div class="portfolio-item-meta">
+          					      <h5>VvVvV</h5>
+                              <p>Video Game prototype</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/farmerboy.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Farmer Boy</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/girl.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Girl</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/origami.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Origami</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/retrocam.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Retrocam</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+		<h1> <a href="https://github.com/LeRyokan">MORE HERE ON MY GITHUB</a> </h1>
+</section>		
+   
+   
+     <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/lucas.tixier"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/LucasTixier"><i class="fa fa-twitter"></i></a></li>
+			    <li><a href="https://github.com/LeRyokan"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://plus.google.com/111633079278120056210"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://fr.linkedin.com/in/lucas-tixier-73a77476"><i class="fa fa-linkedin"></i></a></li>           
+            </ul>
+
+            <!--ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul-->
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer>
+
+   
+    <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+   <!--script src="http://code.jquery.com/jquery-1.11.0.min.js"></script-->
+   <script src="js/lang.js"></script>
+   
+  </body>
+</html>

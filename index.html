@@ -18,7 +18,7 @@
 	<!-- CSS
     ================================================== -->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
@@ -45,10 +45,10 @@
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home" tkey="home">Home</a></li>
-            <li><a class="smoothscroll" href="#about" tkey="about">About</a></li>
-	    <li><a class="smoothscroll" href="#resume" tkey="cv">Resume</a></li>
-            <li><a class="smoothscroll" href="#portfolio" tkey="works">Works</a></li>
+			<li><a class="smoothscroll" href="#portfolio" tkey="works">Works</a></li>
+			<li><a class="smoothscroll" href="#resume" tkey="cv">Resume</a></li>
             <!--li><a class="smoothscroll" href="#testimonials" tkey="cv">Testimonials</a></li-->
+			 <li><a class="smoothscroll" href="#about" tkey="about">About</a></li>
             <li><a class="smoothscroll" href="#contact" tkey="contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
@@ -77,6 +77,403 @@
 
    </header> <!-- Header End -->
 
+    <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+			
+			<script>
+function changebg(i)
+{
+	console.log("On clique");
+	var x = document.getElementById("testimonials");
+	var o = document.getElementById("projects");
+	//"Solo game where you have to help mister belly to find his way to home without running out of battery ! you can test the game here : href(https://youtube.com)";
+	switch (i)
+	{
+		case 1 :
+		//window.location.href = "game_page.html";
+		
+		x.style.background="url(images/ingameBM.jpg) no-repeat center center";
+		//x.style.background= "fixed";
+
+
+	 	x.style.background.position= "relative";
+   		//min-height= "200px";
+   		x.style.background.width= "100%";
+   		x.style.background.overflow= "hidden";
+		
+		o.innerHTML = "Big Mommy Is Watching Over You - Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h";
+		break;
+		
+		case 2:
+		x.style.background="url(images/portfolio/gamescene_wvw.jpg)";
+		o.innerHTML = "WVW - Global GameJam - Jeu de duel de sous-marin en ligne! Trouver et eliminer votre adversaire avant qu'il n'en fasse de même pour vous! Jeu réalisé en 48h";
+		break;
+		
+		case 3:
+		x.style.background="url(images/portfolio/previewHirule.png)";
+		o.innerHTML = "Shareable AI Party - Party game multijoueur ! L'idée principale derrière ce titre était de pouvoir jouer avec des IA ayant un comportement similaire au joueur ayant déjà joué au jeu.";
+	//		Implementation of a multiplayer party game, with robust IA system <br> The purpose was to reproduce human comportment with IA.";
+		break;
+		
+		case 4:
+		x.style.background="url(images/ez4.jpg)";
+		o.innerHTML = "VvVvV - Jeu de voleur multijoueur en ligne ! Ceci est un prototype réalisé en 1ere année de master jeu vidéo, le but est simple plannifier à chaque tour une choix d'action pour tenter de rammasser plus de butins que les voleurs ennemis se trouvant dans le donjon !";
+		// Multiplayer thief game ! " First Concept <br> First prototype for our Unity course in my 1st year of master Video Game";
+		
+	
+		break;
+		default:
+		x.style.background="url(images/ez.jpg)";
+		o.innerHTML = "Big Mommy Is Watching Over You - LD JAM 39 - Solo game where you have to help mister belly to find his way to home without running out of battery ! you can test the game here : ";
+	}
+}
+</script>
+   
+   
+   
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1 tkey="title_portfolio">Check Out Some of My Works.</h1>
+
+			
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                       <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/BMIWY8.jpg" >
+                        <div class="overlay" onclick="changebg(1)">
+                           <div class="portfolio-item-meta">
+          					      <h5>Big Mommy Is Watching Over You</h5>
+                              <p>Video Game for Game Jam</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+					
+                        <img alt="" src="images/portfolio/wvw8.png">
+                        <div class="overlay" onclick="changebg(2)">
+						
+						
+                           <div class="portfolio-item-meta">
+          					      <h5>Warship Vs Warship (WVW)</h5>
+                              <p>Video Game for Game Jam</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <!--a href="#modal-03" title=""-->
+					
+                        <img alt="" src="images/portfolio/previewHirule8.png">
+                        <div class="overlay" onclick="changebg(3)">
+                           <div class="portfolio-item-meta">
+          					      <h5>Shareable IA Party</h5>
+                              <p>Video Game</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                  
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <!--a href="#modal-04" title=""-->
+                        <img alt="" src="images/portfolio/RACOON VVVVV8.png">
+                        <div class="overlay" onclick="changebg(4)">
+                           <div class="portfolio-item-meta">
+          					      <h5>VvVvV</h5>
+                              <p>Video Game prototype</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/farmerboy.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Farmer Boy</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/girl.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Girl</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/origami.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Origami</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/retrocam.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Retrocam</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+		<h1> <a href="https://github.com/LeRyokan">MORE HERE ON MY GITHUB</a> </h1>
+</section>		
+		<!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  
+
+                     <li>
+                        <blockquote>
+                           <p id="projects">Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                  
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+		
+		
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/ingameBM.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Big Mommy Is Watching (Over) You</h4>
+			      <p>Big Mommy Is Watching Over You - Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h</p>
+               <span class="categories"><i class="fa fa-tag"></i>Ludum Dare 39, Indie GameDev</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://elryogrande.itch.io/big-mommy-is-watching-over-you">Details</a>
+		         <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/gamescene_wvw2.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Warship Vs Warship (WvW)</h4>
+			      <p>Jeu de duel de sous-marin en ligne! Trouver et eliminer votre adversaire avant qu'il n'en fasse de même pour vous! Jeu réalisé en 48h!</p>
+               <span class="categories"><i class="fa fa-tag"></i>Global GameJam, Indie GameDev</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://globalgamejam.org/2017/games/wvw">Details</a>
+		         <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Project 3</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Into the Light</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <!--div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <!--div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <!--div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <!--div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+   
 
    <!-- About Section
    ================================================== -->
@@ -303,348 +700,7 @@
    </section> <!-- Resume Section End-->
 
 
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1 tkey="title_portfolio">Check Out Some of My Works.</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title=""><script>
-function changebg(i)
-{
-	console.log("On clique");
-	var x = document.getElementById("testimonials");
-	var o = document.getElementById("projects");
-	//"Solo game where you have to help mister belly to find his way to home without running out of battery ! you can test the game here : href(https://youtube.com)";
-	switch (i)
-	{
-		case 1 :
-		x.style.background="url(images/ingameBM.jpg) no-repeat center center";
-		//x.style.background= "fixed";
-
-
-	 	x.style.background.position= "relative";
-   		//min-height= "200px";
-   		x.style.background.width= "100%";
-   		x.style.background.overflow= "hidden";
-		
-		o.innerHTML = "Big Mommy Is Watching Over You - Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h";
-		break;
-		
-		case 2:
-		x.style.background="url(images/portfolio/gamescene_wvw.jpg)";
-		o.innerHTML = "WVW - Global GameJam - Jeu de duel de sous-marin en ligne! Trouver et eliminer votre adversaire avant qu'il n'en fasse de même pour vous! Jeu réalisé en 48h";
-		break;
-		
-		case 3:
-		x.style.background="url(images/portfolio/previewHirule.png)";
-		o.innerHTML = "Shareable AI Party - Party game multijoueur ! L'idée principale derrière ce titre était de pouvoir jouer avec des IA ayant un comportement similaire au joueur ayant déjà joué au jeu.";
-	//		Implementation of a multiplayer party game, with robust IA system <br> The purpose was to reproduce human comportment with IA.";
-		break;
-		
-		case 4:
-		x.style.background="url(images/ez4.jpg)";
-		o.innerHTML = "VvVvV - Jeu de voleur multijoueur en ligne ! Ceci est un prototype réalisé en 1ere année de master jeu vidéo, le but est simple plannifier à chaque tour une choix d'action pour tenter de rammasser plus de butins que les voleurs ennemis se trouvant dans le donjon !";
-		// Multiplayer thief game ! " First Concept <br> First prototype for our Unity course in my 1st year of master Video Game";
-		
-	
-		break;
-		default:
-		x.style.background="url(images/ez.jpg)";
-		o.innerHTML = "Big Mommy Is Watching Over You - LD JAM 39 - Solo game where you have to help mister belly to find his way to home without running out of battery ! you can test the game here : ";
-	}
-}
-</script>
-                        <img alt="" src="images/portfolio/BMIWY8.jpg" >
-                        <div class="overlay" onclick="changebg(1)">
-                           <div class="portfolio-item-meta">
-          					      <h5>Big Mommy Is Watching Over You</h5>
-                              <p>Video Game for Game Jam</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/wvw8.png">
-                        <div class="overlay" onclick="changebg(2)">
-                           <div class="portfolio-item-meta">
-          					      <h5>Warship Vs Warship (WVW)</h5>
-                              <p>Video Game for Game Jam</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <!--a href="#modal-03" title=""-->
-                        <img alt="" src="images/portfolio/previewHirule8.png">
-                        <div class="overlay" onclick="changebg(3)">
-                           <div class="portfolio-item-meta">
-          					      <h5>Shareable IA Party</h5>
-                              <p>Video Game</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <!--a href="#modal-04" title=""-->
-                        <img alt="" src="images/portfolio/RACOON VVVVV8.png">
-                        <div class="overlay" onclick="changebg(4)">
-                           <div class="portfolio-item-meta">
-          					      <h5>VvVvV</h5>
-                              <p>Video Game prototype</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <!--div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <!--div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/girl.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <!--div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/origami.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <!--div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/retrocam.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div>  <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-		<h1> <a href="https://github.com/LeRyokan">MORE HERE ON MY GITHUB</a> </h1>
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/ingameBM.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Big Mommy Is Watching (Over) You</h4>
-			      <p>Big Mommy Is Watching Over You - Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h</p>
-               <span class="categories"><i class="fa fa-tag"></i>Ludum Dare 39, Indie GameDev</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://elryogrande.itch.io/big-mommy-is-watching-over-you">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/gamescene_wvw2.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Warship Vs Warship (WvW)</h4>
-			      <p>Jeu de duel de sous-marin en ligne! Trouver et eliminer votre adversaire avant qu'il n'en fasse de même pour vous! Jeu réalisé en 48h!</p>
-               <span class="categories"><i class="fa fa-tag"></i>Global GameJam, Indie GameDev</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://globalgamejam.org/2017/games/wvw">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Project 3</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <!--div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <!--div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <!--div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <!--div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
+  
 
 
    <!-- Call-To-Action Section
@@ -679,46 +735,7 @@ function changebg(i)
    </section--> <!-- Call-To-Action Section End-->
 
 
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="text-container">
-
-         <div class="row">
-
-            <div class="two columns header-col">
-
-               <h1><span>Client Testimonials</span></h1>
-
-            </div>
-
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  
-
-                     <li>
-                        <blockquote>
-                           <p id="projects">Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           
-                        </blockquote>
-                     </li> <!-- slide ends -->
-                  
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
+   
 
 
    <!-- Contact Section
