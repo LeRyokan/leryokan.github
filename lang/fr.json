@@ -7,21 +7,20 @@
 "title": "Lucas Tixier",
 "txt_intro" : "Je suis développeur, je vis à Paris et je travaille actuellement pour Orange. ",
 "title_about":"A propos de moi",
-"txt_about": "Merci de  votre visite sur mon site! <br> Je suis un passionné d'art virtuel. Le jeu vidéo, les films d'animations  sont mes passe-temps favoris. J'ai également l'envie de travailler dans le domaine du jeu vidéo qui m'intéresse énormément de par son innovation permanente afin de proposer toujours plus d'intéractions entre joueurs et mondes virtuels",
-"title_contact": "Contact",
+"txt_about": "Merci de votre visite sur mon site! <br> Je suis un passionné d'art virtuel. Le jeu vidéo, les films d'animations font parti de mes passe-temps favoris. J'ai créer ce site pour me permettre de partager mes quelques créations vidéoludique ainsi que pour présenter mon parcours professionnel. Je souhaite pouvoir un jour intégré un studio de jeu vidéo pour avoir la chance de travailler sur des projets de plus grande ampleurs et avec plus de corps de métier différent. Maintenant que je me suis brievement introduit je vous laisse visiter mon site et vous remercie encore de votre venue. " 
 "button_downloadCV" : "Télécharger le CV",
 "txt_contact" : "J'adore partager avec tout le monde. Alors si vous avez une question, une idée ou ne serais-ce juste l'envie de m'écrire pour discuter n'hésitez pas je ferais de mon mieux pour vous répondre le plus rapidement possible.",
 
 "title_education":"<span>études</span>",
 "title_school1":"Lycée Georges Brassens <span>&#126;</span> Rive de giers 42800",
 "title_study1":"BTS, Informatique et Réseau pour l'Industrie et les Services (IRIS)",
-"txt_school1":"J'ai acquis les bases de la programmation avec cette formation, C/C++, PHP/HTML/CSS, SQL, PL/SQL",
+"txt_school1":"J'ai acquis les bases de la programmation avec cette formation. Voici quelques exemples de technologies abordées : C/C++, PHP/HTML/CSS, SQL, PL/SQL",
 "title_school2":"Tétras <span>&#126;</span> Université d'Annecy-le-vieux",
 "title_study2":"Licence Professionnelle, Chargé de projet Informatique",
-"txt_school2":"J'ai souhaité élargir mondomaine de compétence au management de projet tout en poursuivant l'apprentissage de la programmation.",
+"txt_school2":"Avec cette année de licence, j'ai souhaité élargir mon domaine de compétence au management de projet tout en poursuivant l'apprentissage de la programmation.",
 "title_school3":"Ecole Supérieur de Génie Informatique <span>&#126;</span> Paris 75012",
 "title_study3":"Master en programmation Jeu vidéo et 3D",
-"txt_school3":"Pour finir mes études j'ai donc choisi de me spécialiser dans la programation 3D et jeu vidéo, qui est le domaine de l'informatique qui m'attire le plus.",
+"txt_school3":"Pour finir mes études j'ai donc choisi de me spécialiser dans la programation 3D et de jeux vidéo, qui est le domaine de la programmation qui m'attire le plus.",
 
 
 "title_job":"<span>Expérience</span>",
@@ -42,12 +41,12 @@
 
 
 "title_enterprise3":"Orange <span>&#126;</span> CDI",
-"title_job3":"Administrateur linux - Developpeur (Python / Bash) <span>&bull;</span> Octobre 2016 - Aujourd'hui",
-"txt_job3":"Suite à mon alternance, il m'a été proposé de rester dans l'équipe mais pour une autre mission. J'ai donc obtenu mon premier CDI chez Orange. La mission consiste en la mise en place d'équipement dans le réseau d'orange, mais également dans l'exploitation de ces équipements. Nous sommes 2 à nous occuper de 75 machines disséminées partout en France.",
+"title_job3":"Dataminer - Developpeur (Python / Bash) - Admin Linux <span>&bull;</span> Octobre 2016 - Aujourd'hui",
+"txt_job3":"Suite à mon alternance, il m'a été proposé de rester dans l'équipe mais pour une autre mission. J'ai donc obtenu mon premier CDI chez Orange. La mission consiste en la mise en place d'équipement dans le réseau d'orange, mais également dans l'exploitation de ces équipements. Nous sommes 2 à nous occuper d'un large parc de machines disséminées partout en France. Je réalise également des études de datamining pour mes collègues de travail.",
 "date_job3":"Octobre 2016 - Aujourd'hui",
 
 "title_skills" :"<span>Compétences</span>",
-"txt_skills" :"Voici un bref aperçu des mes compétences par domaine",
+"txt_skills" :"Voici un bref aperçu des mes compétences par domaine.",
 
 "title_portfolio": "Portfolio",
 "txt_portfolio":"Voici des exemples de mes anciens travaux en relation avec les jeux vidéo et la 3D",
