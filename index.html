@@ -107,7 +107,7 @@ function changebg(i)
    		x.style.background.width= "100%";
    		x.style.background.overflow= "hidden";
 		
-		o.innerHTML = "Big Mommy Is Watching Over You - Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h. Fais avec Haxe et le HaxeFlixel";
+		o.innerHTML = "Big Mommy Is Watching Over You - Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h. Fais avec Haxe et le moteur HaxeFlixel.";
 		break;
 		
 		case 2:
@@ -128,6 +128,15 @@ function changebg(i)
 		
 	
 		break;
+		
+		case 5:
+		x.style.background="url(images/ez5.jpg)";
+		o.innerHTML = "Towers of Alchemia - Alakajam #1 - Tower Defense solo dans lequel vous devez affronter des vagues d'ennemy vulnérable à certains éléments (logique type Pierre - Feuille - Ciseau) ! Il est également possible de créer de nouveaux éléments par adjacence de deux éléments compémentaire ! Jeu réalisé en 48h. Fais avec Haxe et le moteur HaxeFlixel.";
+		// Multiplayer thief game ! " First Concept <br> First prototype for our Unity course in my 1st year of master Video Game";
+		
+	
+		break;
+		
 		default:
 		x.style.background="url(images/ez.jpg)";
 		o.innerHTML = "Big Mommy Is Watching Over You - LD JAM 39 - Solo game where you have to help mister belly to find his way to home without running out of battery ! you can test the game here : ";
@@ -135,28 +144,36 @@ function changebg(i)
 }
 </script>
    
-   
-   
-     
-
-			
-            <!-- portfolio-wrapper -->
+            <!-- portfolio-wrapper -->		
             <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
 
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                       <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/BMIWY8.jpg" >
-                        <div class="overlay" onclick="changebg(1)">
-                           <div class="portfolio-item-meta">
-          					      <h5>Big Mommy Is Watching Over You</h5>
-                              <p>Video Game for Game Jam</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+				<div class="columns portfolio-item">
+					<div class="item-wrap">
+						<a href="#modal-05" title="">
+							<img alt="" src="images/portfolio/Towers.png">
+							<div class="overlay" onclick="changebg(5)">
+								<div class="portfolio-item-meta">
+									<h5>Towers of Alchemia</h5>
+								<p>Video game for GameJam</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+						</a>
+					</div>
+          		</div> <!-- item end -->
+			
+          	    <div class="columns portfolio-item">
+					<div class="item-wrap">
+                        <a href="#modal-01" title="">
+							<img alt="" src="images/portfolio/BMIWY8.jpg" >
+								<div class="overlay" onclick="changebg(1)">
+									<div class="portfolio-item-meta">
+										<h5>Big Mommy Is Watching Over You</h5>
+										<p>Video game for GameJam</p>
+									</div>
+								</div>
+							<div class="link-icon"><i class="icon-plus"></i></div>
+						</a>
                   </div>
           		</div> <!-- item end -->
 
@@ -171,7 +188,7 @@ function changebg(i)
 						
                            <div class="portfolio-item-meta">
           					      <h5>Warship Vs Warship (WVW)</h5>
-                              <p>Video Game for Game Jam</p>
+                              <p>Video game for GameJam</p>
           					   </div>
                         </div>
                         <div class="link-icon"><i class="icon-plus"></i></div>
@@ -215,22 +232,7 @@ function changebg(i)
                   </div>
           		</div> <!-- item end -->
 
-               <!--div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
+             
 
                <!--div class="columns portfolio-item">
                   <div class="item-wrap">
@@ -290,6 +292,151 @@ function changebg(i)
 
 		<h1> <a href="https://github.com/LeRyokan">Encore plus de projets sur mon Github ici ! </a> </h1>
 </section>	
+
+<!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/ingameBM.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Big Mommy Is Watching (Over) You</h4>
+			      <p>Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h. Fais avec Haxe et le moteur HaxeFlixel.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Ludum Dare 39, Indie GameDev</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://elryogrande.itch.io/big-mommy-is-watching-over-you">Voir le jeu</a>
+		         <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/gamescene_wvw2.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Warship Vs Warship (WvW)</h4>
+			      <p>Global GameJam 2017 - Jeu de duel de sous-marin en ligne! Trouver et eliminer votre adversaire avant qu'il n'en fasse de même pour vous! Jeu réalisé en 48h. Fais avec Unity</p>
+               <span class="categories"><i class="fa fa-tag"></i>Global GameJam, Indie GameDev</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://globalgamejam.org/2017/games/wvw">Voir le jeu</a>
+		         <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Project 3</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Into the Light</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Towers of Alchemia</h4>
+			      <p> Alakajam #1 - Tower Defense solo dans lequel vous devez affronter des vagues d'ennemy vulnérable à certains éléments (logique type Pierre - Feuille - Ciseau) ! Il est également possible de créer de nouveaux éléments par adjacence de deux éléments compémentaire ! Jeu réalisé en 48h. Fais avec Haxe et le moteur HaxeFlixel.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Alakajam #1, Indie Gamedev</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://elryogrande.itch.io/towers-of-alchemia">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <!--div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <!--div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <!--div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
 
 	<!-- Testimonials Section
    ================================================== -->
@@ -568,149 +715,7 @@ function changebg(i)
  	
 	
 
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/ingameBM.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Big Mommy Is Watching (Over) You</h4>
-			      <p>Big Mommy Is Watching Over You - Ludum Dare Jam 39 - Jeu solo où vous devez guider Mister Belly jusqu'à sa maison, tout en évitant de voir la batterie de votre téléphone se décharger totalement! Jeu réalisé en 72h. Fais avec Haxe et le moteur HaxeFlixel.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Ludum Dare 39, Indie GameDev</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://elryogrande.itch.io/big-mommy-is-watching-over-you">Voir le jeu</a>
-		         <a class="popup-modal-dismiss">Fermer</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/gamescene_wvw2.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Warship Vs Warship (WvW)</h4>
-			      <p>Jeu de duel de sous-marin en ligne! Trouver et eliminer votre adversaire avant qu'il n'en fasse de même pour vous! Jeu réalisé en 48h. Fais avec Unity</p>
-               <span class="categories"><i class="fa fa-tag"></i>Global GameJam, Indie GameDev</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://globalgamejam.org/2017/games/wvw">Voir le jeu</a>
-		         <a class="popup-modal-dismiss">Fermer</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Project 3</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Fermer</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Fermer</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <!--div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <!--div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <!--div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <!--div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
+         
    
 
    <!-- Contact Section
